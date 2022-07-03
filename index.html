@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
   
   <title>Frontend Mentor | Fylo data storage component</title>
 
@@ -15,14 +16,39 @@
   </style>
 </head>
 <body>
+  <div class="gbLeft"><span id="fat">185</span> GB Left</div>
+ <div class="mainDiv">
+   
+   <div class="fylo">
+    <div class="headFylo">
+      <img src="https://raw.githubusercontent.com/neuyann/Fylo-data-storage-component/63687d29001ffe4bc3d2b0ca57d185014b23470c/images/logo.svg" alt="iconfylo">
+    </div>
+    <div class="filesFylo">
+      <div class="newFile">
+      <img src="https://raw.githubusercontent.com/neuyann/Fylo-data-storage-component/63687d29001ffe4bc3d2b0ca57d185014b23470c/images/icon-document.svg" alt="iconNewFile"></div>
+      <div class="openFile">
+      <img id="openFile"src="https://raw.githubusercontent.com/neuyann/Fylo-data-storage-component/63687d29001ffe4bc3d2b0ca57d185014b23470c/images/icon-folder.svg" alt="iconOpenFile"></div>
+      <div class="loadFile">
+      <img id="loadFile" src="https://raw.githubusercontent.com/neuyann/Fylo-data-storage-component/63687d29001ffe4bc3d2b0ca57d185014b23470c/images/icon-upload.svg" alt="iconUploadFile"></div>
 
-  You’ve used 815 GB of your storage
+    </div>
+  </div>
+   <div class="storage">
+     <p>You’ve used <span class="strong">815 GB</span> of your storage</p>
 
-  185 GB Left
-  
-  0 GB
-  1000 GB
-  
+     
+     <div class="spaceLeftBarWrap">
+       <div id="storageColor">
+         <div id="whiteBall">
+         </div>
+       </div>
+     </div>
+ <div class="storageScale">    
+   <p><span class="strong">0 GB</span></p>
+   <p><span class="strong">1000 GB</span></p>
+     </div>
+  </div>
+ </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
