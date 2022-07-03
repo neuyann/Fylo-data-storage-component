@@ -30,7 +30,7 @@ body {
 .fylo {
   background: hsl(228, 56%, 26%);
   height: 200px;
-  width: 350px;
+  min-width: 350px;
   padding: 40px;
   border-radius: 15px 90px 15px 15px;
 }
@@ -148,6 +148,8 @@ body {
     margin: 125px 25px;
     gap: 20px;
   }
+   .fylo {
+  width: 100%;}
   
   .storage{
     width: 100%;
